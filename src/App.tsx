@@ -1,12 +1,11 @@
-function App() {
-  
+import Navbar from "../src/components/navbar/Navbar";
 
+function App() {
   return (
     <div>
-      <h1 className="text-2xl text-red-500">tailwind check</h1>
-      <button className="btn btn-outline btn-warning">Warning</button>
+      <Navbar />
     </div>
   )
 }
 
-export default App
+export default App;
