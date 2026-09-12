@@ -32,4 +32,5 @@ interface TechSectionProps {
   removeFromStack: (id: string) => void;
   removeAll: () => void;
 }
+
 export type { Props, TechnologyStack, SelectedStackProps, TechStackProps, TechSectionProps};
