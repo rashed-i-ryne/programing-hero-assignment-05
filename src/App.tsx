@@ -3,6 +3,7 @@ import HeroSection from "./components/hero/HeroSection";
 import TechSection from "./components/TechSection";
 import ToastProvider from "./components/tost/ToastProvider";
 import { useStackManager } from "./hooks/useStackManager";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const { 
@@ -24,6 +25,7 @@ function App() {
         removeFromStack={removeFromStack}
         removeAll={removeAll}
       />
+      <Footer />
 
       <ToastProvider />
     </div>
