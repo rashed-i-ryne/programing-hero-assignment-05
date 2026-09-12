@@ -1,7 +1,7 @@
 
-import TechStack from './techStack/TechStack';
-import SelectedStack from './selectedStack/SelectedStack';
-import type { TechSectionProps } from '../types/types';
+import TechStack from "./techStack/TechStack";
+import SelectedStack from "./selectedStack/SelectedStack";
+import type { TechSectionProps } from "../types/types";
 
 
 
