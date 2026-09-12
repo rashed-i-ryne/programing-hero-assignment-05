@@ -7,6 +7,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+
 :root {
   --brand-gradient: linear-gradient(to right, #f97316, #ec4899, #8b5cf6);
 }
@@ -18,7 +19,18 @@
 .text-brand-gradient {
   background-image: var(--brand-gradient);
   -webkit-background-clip: text;
-  background-clip: text;           
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: transparent;              
+  color: transparent;
+}
+
+/* This is what fixes the hover issue */
+.btn-brand {
+  background-image: var(--brand-gradient);
+  transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+  background-image: none;
+  background-color: #ffffff;
 }
