@@ -17,7 +17,7 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-          <button className="cursor-pointer bg-brand-gradient px-7 py-3 rounded-lg font-semibold text-white border border-transparent hover:bg-none hover:bg-white hover:border-pink-500 hover:text-pink-500 transition-all duration-300 shadow-lg">
+          <button className="cursor-pointer bg-brand-gradient px-7 py-3 rounded-lg font-semibold text-white border border-transparent hover:bg-none hover:border-pink-500 hover:text-pink-500 transition-all duration-300 shadow-lg">
   Explore Technologies
 </button>
 
