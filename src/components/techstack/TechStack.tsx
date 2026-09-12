@@ -58,7 +58,7 @@ const TechStack = ({
               className={`w-full py-3 rounded-xl text-sm transition-all ${
                 isAdded
                   ? "bg-[#0A0F1D] text-white cursor-not-allowed opacity-90"
-                  : "bg-[#0A0F1D] text-white hover:bg-gray-800 shadow-md"
+                  : "bg-[#0A0F1D] text-white cursor-pointer hover:bg-gray-800 shadow-md"
               }`}
             >
               {isAdded ? "Added to Stack" : "Add to Stack"}

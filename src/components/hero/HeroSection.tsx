@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-[1.2] lg:leading-[1.1] tracking-tight">
           Build Your Ideal <br />
-          <span className="whitespace-nowrap bg-linear-to-r from-orange-500 via-pink-500 to-purple-600 bg-clip-text text-transparent">
+          <span className="whitespace-nowrap text-brand-gradient">
             Development Stack
           </span>
         </h1>
@@ -17,9 +17,9 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
-          <button className="cursor-pointer bg-linear-to-r from-orange-500 to-pink-500 px-7 py-3 rounded-lg font-semibold text-white border border-transparent hover:bg-none hover:bg-white hover:border-pink-500 hover:text-pink-500 transition-all duration-300">
-            Explore Technologies
-          </button>
+          <button className="cursor-pointer bg-brand-gradient px-7 py-3 rounded-lg font-semibold text-white border border-transparent hover:bg-none hover:bg-white hover:border-pink-500 hover:text-pink-500 transition-all duration-300 shadow-lg">
+  Explore Technologies
+</button>
 
           <button className="cursor-pointer bg-white border border-gray-200 px-7 py-3 rounded-lg font-semibold text-gray-700 hover:border-pink-500 hover:text-pink-500 transition-all duration-300">
             Learn More
