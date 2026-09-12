@@ -1,6 +1,6 @@
-// src/components/TechSection.tsx
+
 import TechStack from './techStack/TechStack';
-import SelectedStack from './selectecdstack/SelectedStack';
+import SelectedStack from './selectedStack/SelectedStack';
 import type { TechSectionProps } from '../types/types';
 
 
