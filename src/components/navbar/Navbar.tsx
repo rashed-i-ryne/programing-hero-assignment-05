@@ -8,10 +8,8 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-white">   
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Added 'relative' here to bound the absolute centering */}
         <div className="flex items-center h-16 relative">
           
-          {/* Hamburger Menu (Mobile Only) */}
           <div className="md:hidden flex items-center">
             <button 
               type="button"
@@ -31,12 +29,10 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Logo Section (Absolute Center on Mobile, Static Left on Desktop) */}
           <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-auto flex items-center shrink-0">
             <img src={logo} alt="Brand Logo" className="h-8" />
           </div>
 
-          {/* Links Section (Desktop Only - Absolute Center) */}
           <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 space-x-8">
             <a href="#" className="text-gray-600 hover:text-pink-600 font-medium px-2 py-1 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-600">Home</a>
             <a href="#" className="text-gray-600 hover:text-pink-600 font-medium px-2 py-1 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-600">Technologies</a>
@@ -45,7 +41,6 @@ const Navbar = () => {
             <a href="#" className="text-gray-600 hover:text-pink-600 font-medium px-2 py-1 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-600">Contact</a>
           </div>
 
-          {/* Buttons Section (Right Aligned via ml-auto) */}
           <div className="flex items-center space-x-3 sm:space-x-4 ml-auto">
             <button className="cursor-pointer text-sm md:text-base text-gray-600 font-medium hover:text-pink-600 px-2 py-1 rounded-md focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-600">
               Sign In

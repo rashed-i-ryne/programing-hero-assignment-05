@@ -1,7 +1,4 @@
-interface Props { 
-  isOpen: boolean; 
-  onClose: () => void;
-}
+import type {Props} from  "../../types/types"
 
 const MobileNavbar = ({ isOpen, onClose }: Props) => {
   if (!isOpen) return null;
