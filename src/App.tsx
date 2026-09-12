@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar/Navbar";
 import HeroSection from "./components/hero/HeroSection";
 import TechSection from "./components/TechSection";
-import ToastProvider from "./components/tost/ToastProvider";
+import ToastProvider from "./components/tosts/ToastProvider";
 import { useStackManager } from "./hooks/useStackManager";
 import Footer from "./components/footer/Footer";
 
